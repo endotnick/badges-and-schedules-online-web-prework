@@ -12,6 +12,10 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
+  assignments = []
+  for attendee in attendees do
+    assignments << "Hello, #{attendee}! You'll be assigned to room #{assignments.size + 1}"
+  end
   messages = batch_badge_creator(attendees)
 end
 
