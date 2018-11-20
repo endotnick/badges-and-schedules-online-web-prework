@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   for attendee in attendees do
     assignments << "Hello, #{attendee}! You'll be assigned to room #{assignments.size + 1}"
   end
-  messages = batch_badge_creator(attendees)
+  assignments
 end
 
 def printer(attendees)
