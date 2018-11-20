@@ -26,5 +26,6 @@ def printer(attendees)
   while i < badges.size do
     puts badges[i]
     puts rooms[i]
+    i += 1
   end
 end
